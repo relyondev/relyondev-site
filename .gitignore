@@ -1,0 +1,17 @@
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo
+**/next-env.d.ts
+**/.local-secret
+**/.env
+**/.env.local
+**/*.sqlite*
+**/.semantic/
+**/*.log
+**/.seed-map.json
+apps/web/dist/
+apps/web/.dist-staging/
+apps/cms/media/
+content/media/
+.downloads/
+.DS_Store

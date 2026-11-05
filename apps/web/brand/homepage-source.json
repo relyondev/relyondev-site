@@ -1,0 +1,1072 @@
+{
+  "locale": "en",
+  "collections": {
+    "projects": [
+      {
+        "importKey": "home-4dolfins",
+        "slug": "4dolfins",
+        "title": "4Dolfins",
+        "summary": "4 Dolfins is a complete film and television portfolio website solution built to showcase productions, formats, and media recognition in a bold and cinematic dig"
+      },
+      {
+        "importKey": "home-orvel",
+        "slug": "orvel",
+        "title": "Orvel",
+        "summary": "Orvel is a complete website for an independent brand and digital studio in London and Lisbon, founded in 2013, with thirty-four designers, writers, strategists"
+      },
+      {
+        "importKey": "home-lasada-pippen",
+        "slug": "lasada-pippen",
+        "title": "Lasada Pippen",
+        "summary": "Lasada Pippen is a complete keynote speaker and communication coaching website solution built to position communication as a competitive advantage across corpor"
+      },
+      {
+        "importKey": "home-amble",
+        "slug": "amble",
+        "title": "Amble",
+        "summary": "Amble is a complete online store for everyday sneakers, runners and trail shoes, designed in Portland and made in two family factories in Elche, Spain. It is bu"
+      },
+      {
+        "importKey": "home-tarn",
+        "slug": "tarn",
+        "title": "Tarn",
+        "summary": "Tarn is a complete website for a cash-flow forecasting product for small and mid-size businesses. It is built around one question: how long will your cash last?"
+      },
+      {
+        "importKey": "home-ardor",
+        "slug": "ardor",
+        "title": "Ardor",
+        "summary": "Ardor is a complete website for an independent marketing agency in Amsterdam. It is built around one idea: campaigns people talk about, then remember. The home"
+      },
+      {
+        "importKey": "home-averleigh",
+        "slug": "averleigh",
+        "title": "Averleigh",
+        "summary": "Averleigh is a complete website for a private members’ club in the High Weald of East Sussex, founded in 1897. It makes a first visit, a visiting-golf request a"
+      },
+      {
+        "importKey": "home-horizone",
+        "slug": "horizone",
+        "title": "Horizone",
+        "summary": "Horizone is a car-rental booking site: a full-screen search hero, a filterable 26-car fleet, live-priced car pages, checkout and an account area."
+      },
+      {
+        "importKey": "home-alvara-house",
+        "slug": "alvara-house",
+        "title": "Alvara House",
+        "summary": "Alvara House is a boutique estate agency on the Pacific Northwest coast representing architect-designed homes, and the site was built to sell the way the agency"
+      },
+      {
+        "importKey": "home-stillroom",
+        "slug": "stillroom",
+        "title": "Stillroom",
+        "summary": "Stillroom is a complete website for a therapy practice in a Georgian townhouse in Stockbridge, Edinburgh, with eight therapists who see adults and couples in pe"
+      },
+      {
+        "importKey": "home-aveline-dental",
+        "slug": "aveline-dental",
+        "title": "Aveline Dental",
+        "summary": "Aveline is a complete dental clinic website solution built to give patients clarity before they ever walk in. The project was designed with a strong focus on tr"
+      }
+    ],
+    "testimonials": [
+      {
+        "importKey": "home-lasada-pippen",
+        "name": "Lasada Pippen",
+        "role": "Keynote Speaker & Communication Coach",
+        "quote": "I've worked with Relyon Dev on several different occasions and it's always a pleasure. They go through every detail and deliver according to your desires.",
+        "portrait": {
+          "$media": "media/5a83f2d8351f2d86ca840e132f49d102.png",
+          "alt": ""
+        }
+      },
+      {
+        "importKey": "home-lucas-m-",
+        "name": "Lucas M.",
+        "role": "United States",
+        "quote": "Great work overall. The design feels premium, the layout is well structured, and everything is responsive. They made the changes I requested quickly and didn't drag the process. Would definitely work again."
+      },
+      {
+        "importKey": "home-saleh-al-zamil",
+        "name": "Saleh Al Zamil",
+        "role": "Tamkene Saudi Training Center",
+        "quote": "Talented, creative, and most importantly trustworthy. They completed the revisions even after the project was marked complete on Contra weeks earlier.",
+        "portrait": {
+          "$media": "media/3f19925f785007cf7b1ae8794b211f04.avif",
+          "alt": ""
+        }
+      }
+    ]
+  },
+  "landingPage": {
+    "title": "Relyon Dev",
+    "seo": {
+      "metaTitle": "Relyon Dev | Premium Web Design Studio",
+      "metaDescription": "Relyon Dev is a premium web design studio crafting websites with clarity and purpose — design, development and CMS under one roof."
+    },
+    "sections": [
+      {
+        "__component": "sections.hero",
+        "eyebrow": "Design In Details",
+        "heading": "Build Digital Solutions Together",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Premium websites crafted for bold brands."
+              }
+            ]
+          }
+        ],
+        "primaryAction": {
+          "label": "Get in touch",
+          "href": "http://localhost:3000/contact"
+        },
+        "secondaryAction": {
+          "label": "See our work",
+          "href": "http://localhost:3000/works"
+        }
+      },
+      {
+        "__component": "sections.logo-strip",
+        "heading": "Tools and platforms we build with",
+        "logos": [
+          {
+            "name": "Wix Studio",
+            "image": {
+              "$media": "tech/wix-studio.webp",
+              "alt": "Wix Studio"
+            }
+          },
+          {
+            "name": "Notion",
+            "image": {
+              "$media": "tech/notion.webp",
+              "alt": "Notion"
+            }
+          },
+          {
+            "name": "Figma",
+            "image": {
+              "$media": "tech/figma.webp",
+              "alt": "Figma"
+            }
+          },
+          {
+            "name": "Adobe",
+            "image": {
+              "$media": "tech/adobe.webp",
+              "alt": "Adobe"
+            }
+          },
+          {
+            "name": "Claude",
+            "image": {
+              "$media": "tech/claude.svg",
+              "alt": "Claude"
+            }
+          },
+          {
+            "name": "Framer",
+            "image": {
+              "$media": "tech/framer.svg",
+              "alt": "Framer"
+            }
+          },
+          {
+            "name": "Blender",
+            "image": {
+              "$media": "tech/blender.webp",
+              "alt": "Blender"
+            }
+          },
+          {
+            "name": "Google Analytics",
+            "image": {
+              "$media": "tech/analytics.webp",
+              "alt": "Google Analytics"
+            }
+          },
+          {
+            "name": "Wix Studio",
+            "image": {
+              "$media": "tech/wix-studio.webp",
+              "alt": "Wix Studio"
+            }
+          },
+          {
+            "name": "Notion",
+            "image": {
+              "$media": "tech/notion.webp",
+              "alt": "Notion"
+            }
+          },
+          {
+            "name": "Figma",
+            "image": {
+              "$media": "tech/figma.webp",
+              "alt": "Figma"
+            }
+          },
+          {
+            "name": "Adobe",
+            "image": {
+              "$media": "tech/adobe.webp",
+              "alt": "Adobe"
+            }
+          },
+          {
+            "name": "Claude",
+            "image": {
+              "$media": "tech/claude.svg",
+              "alt": "Claude"
+            }
+          },
+          {
+            "name": "Framer",
+            "image": {
+              "$media": "tech/framer.svg",
+              "alt": "Framer"
+            }
+          },
+          {
+            "name": "Blender",
+            "image": {
+              "$media": "tech/blender.webp",
+              "alt": "Blender"
+            }
+          },
+          {
+            "name": "Google Analytics",
+            "image": {
+              "$media": "tech/analytics.webp",
+              "alt": "Google Analytics"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Design that speaks.Delivery that converts.",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Relyon Dev crafts focused digital experiences that captivate audiences and drive growth. Combining bold design with smart strategy, we elevate your brand to win and convert—seamlessly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.portfolio",
+        "heading": "Our Works",
+        "projects": [
+          {
+            "$ref": "projects:home-4dolfins"
+          },
+          {
+            "$ref": "projects:home-orvel"
+          },
+          {
+            "$ref": "projects:home-lasada-pippen"
+          },
+          {
+            "$ref": "projects:home-amble"
+          },
+          {
+            "$ref": "projects:home-tarn"
+          },
+          {
+            "$ref": "projects:home-ardor"
+          },
+          {
+            "$ref": "projects:home-averleigh"
+          },
+          {
+            "$ref": "projects:home-horizone"
+          },
+          {
+            "$ref": "projects:home-alvara-house"
+          },
+          {
+            "$ref": "projects:home-stillroom"
+          },
+          {
+            "$ref": "projects:home-aveline-dental"
+          }
+        ]
+      },
+      {
+        "__component": "sections.services",
+        "heading": "Elevate your digital footprint.",
+        "items": [
+          {
+            "title": "CraftedWebsites",
+            "description": "",
+            "action": {
+              "label": "CraftedWebsites",
+              "href": "http://localhost:3000/services/crafted-websites"
+            }
+          },
+          {
+            "title": "WebsiteRedesign",
+            "description": "",
+            "action": {
+              "label": "WebsiteRedesign",
+              "href": "http://localhost:3000/services/website-redesign"
+            }
+          },
+          {
+            "title": "eCommerceWebsite Design",
+            "description": "",
+            "action": {
+              "label": "eCommerceWebsite Design",
+              "href": "http://localhost:3000/services/ecommerce-website-design"
+            }
+          },
+          {
+            "title": "CMS &Dynamic Websites",
+            "description": "",
+            "action": {
+              "label": "CMS &Dynamic Websites",
+              "href": "http://localhost:3000/services/cms-and-dynamic-websites"
+            }
+          },
+          {
+            "title": "Landing Pages& Microsites",
+            "description": "",
+            "action": {
+              "label": "Landing Pages& Microsites",
+              "href": "http://localhost:3000/services/landing-pages-and-microsites"
+            }
+          },
+          {
+            "title": "ConsistentIdentity",
+            "description": "",
+            "action": {
+              "label": "ConsistentIdentity",
+              "href": "http://localhost:3000/services/consistent-identity"
+            }
+          },
+          {
+            "title": "Motion &Interaction Design",
+            "description": "",
+            "action": {
+              "label": "Motion &Interaction Design",
+              "href": "http://localhost:3000/services/motion-and-interaction-design"
+            }
+          },
+          {
+            "title": "UX CentricStrategy",
+            "description": "",
+            "action": {
+              "label": "UX CentricStrategy",
+              "href": "http://localhost:3000/services/ux-centric-strategy"
+            }
+          },
+          {
+            "title": "PerformanceOptimization",
+            "description": "",
+            "action": {
+              "label": "PerformanceOptimization",
+              "href": "http://localhost:3000/services/performance-optimization"
+            }
+          },
+          {
+            "title": "Maintenance &Ongoing Support",
+            "description": "",
+            "action": {
+              "label": "Maintenance &Ongoing Support",
+              "href": "http://localhost:3000/services/maintenance-and-ongoing-support"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Platform flexibility. Design consistency.",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No matter the platform, our design language stays consistent, refined, responsive, and built to perform."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Pricing",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Starting points in US dollarsIndian rupees, stated up front — every project is quoted on its actual scope before any work begins."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Business Website"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The full presence — three core pages designed from the ground up, on a CMS you run yourself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3 core pages, custom design"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "CMS for your own updates"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Animation and interactions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Basic SEO setup"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "eCommerce Store"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A complete store — catalogue, cart and checkout, with a dashboard you can actually run."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Product, cart and checkout pages"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Payment and shipping integration"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Store management dashboard"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mobile-first shopping experience"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Custom Build"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Larger platforms and long-running partnerships — scoped together before anything is quoted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Discovery and scoping first"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Multi-collection CMS architecture"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Advanced motion and interaction"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maintenance and support plans"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Our Approach",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Discovery First"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We begin by defining clear goals, understanding your audience, and aligning with your brand voice to set a strong foundation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mobile-First Design"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Every layout is designed for seamless mobile-first experiences, ensuring performance across all devices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Conversion-Driven"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Websites built with strategy, designed to engage audiences, and crafted to turn visitors into customers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pixel-Perfect Development"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Designed and developed with pixel-perfect precision, delivering high performance and easy updates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seamless CMS Launch"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Launched seamlessly with a powerful CMS, allowing you to update and manage your website content effortlessly after going live."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Future-Ready"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Websites designed to be scalable and future-ready, adapting as your business grows."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Studio statistics",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "30+ Projects delivered"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "98% Client satisfaction"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "12+ Years combined experience"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.testimonials",
+        "heading": "Testimonials",
+        "testimonials": [
+          {
+            "$ref": "testimonials:home-lasada-pippen"
+          },
+          {
+            "$ref": "testimonials:home-lucas-m-"
+          },
+          {
+            "$ref": "testimonials:home-saleh-al-zamil"
+          }
+        ]
+      },
+      {
+        "__component": "sections.faq",
+        "heading": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How do I get started with Relyon Dev?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Simply fill out the contact form, and we’ll reach out through email or WhatsApp based on your preferred method of communication."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "How involved do I need to be during the project?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You only need to share your content, preferences, and feedback at important stages. We handle the complete design, development, testing, and launch process."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "How long does it take to build a website?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Most websites are completed within 2–6 weeks, depending on the number of pages, design direction, and required features."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you provide support after the website is launched?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. We offer post-launch maintenance, content updates, and technical support to ensure your website continues to perform well."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you create responsive and eCommerce websites?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Absolutely. Every site we build is fully responsive, and we also develop complete eCommerce stores with payment integration and custom product layouts."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you work with international clients?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes — most of our work is international. Relyon Dev serves clients across the United States, United Kingdom, Europe, the Middle East and worldwide, working across time zones with updates over email or WhatsApp."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__component": "sections.demo",
+        "heading": "Interactive demo",
+        "demoKey": "existing-framer-demo"
+      },
+      {
+        "__component": "sections.call-to-action",
+        "heading": "Create Bold. Deliver Better.",
+        "action": {
+          "label": "Get in touch",
+          "href": "http://localhost:3000/contact"
+        },
+        "variant": "primary"
+      },
+      {
+        "__component": "sections.content",
+        "heading": "Footer and contact",
+        "body": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "See our workSSeeee oouurr wwoorrkk"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Get in touchGGeett iinn ttoouucchh"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Instagram"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "LinkedIn"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Twitter"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "WhatsApp"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Company"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "About"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Work"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Privacy Policy"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Terms and conditions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Services"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Crafted Websites"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Website Redesign"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "eCommerce Design"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "CMS & Dynamic Sites"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Resources"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Blog"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Templates"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "FAQs"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Contact"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Email: build@relyon.dev"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Phone: +62 881 0800 18010"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "© 2026 Relyon Dev. All rights reserved."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "relyondev-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.12.0 <25"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/run.mjs",
+    "start": "node scripts/run.mjs --production",
+    "build": "npm --prefix apps/web run build && node scripts/cms.mjs build",
+    "test": "npm --prefix apps/cms run test:semantic && npm --prefix apps/cms run typecheck && node scripts/check-repository.mjs",
+    "seed": "node scripts/cms.mjs seed"
+  }
+}

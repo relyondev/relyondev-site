@@ -1,0 +1,86 @@
+html[data-theme=dark],html:root{
+--vv-bg:#0b1f44;--vv-bg-elevated:#102c53;--vv-surface:#102c53;--vv-surface-2:#14335e;--vv-surface-strong:#19416e;
+--vv-text-primary:#f4f9ff;--vv-text-strong:#e2efff;--vv-text-muted:#a9bfd9;--vv-text-subtle:#91aaca;--vv-text-dim:#91aaca;
+--vv-nav-bg:#0b1f44ed;--vv-border:#00d2ff26;--vv-border-strong:#00d2ff55;--vv-hairline:#00d2ff33;
+--vv-tint:#00d2ff18;--vv-tint-weak:#00d2ff0c;--vv-field:#ffffff0d;--vv-footer-veil:#0b1f4499;
+--color-amber:#ffc800;--color-blue-500:#006bff;--font-walsheim:Poppins;--font-sans:Poppins, sans-serif;
+--brand-500:#006bff;--bg:#0b1f44;--line:#00d2ff33;
+}
+html[data-theme=light]{--vv-bg:#f4f9ff;--vv-bg-elevated:#e6f1ff;--vv-text-primary:#0b1f44;--vv-text-strong:#15345e;--vv-text-muted:#435b7d;--vv-surface:#e6f1ff;--vv-surface-2:#dcecff;--vv-nav-bg:#f4f9fff2}
+body,button,input,textarea,select{font-family:Poppins,sans-serif!important}
+body{background:var(--vv-bg)!important}
+h1,h2,h3{font-family:Poppins,sans-serif!important;font-weight:600!important}
+h1{font-weight:700!important;letter-spacing:-.045em!important}
+header{border-color:var(--vv-hairline)!important}
+[data-relyon-visual-edit]{cursor:text}
+[data-relyon-visual-edit]:hover{outline:2px dashed #008dd5;outline-offset:3px}
+.rd-visual-dialog{margin:auto;width:min(540px,90vw);padding:20px;border-radius:12px;background:#fff;color:#102c53}
+.rd-visual-dialog::backdrop{background:#08142780}
+.rd-visual-dialog textarea{display:block;width:100%;margin:8px 0 14px;padding:8px;border:1px solid #91aaca}
+.rd-visual-dialog button{padding:7px 12px;margin-right:8px;border:1px solid #91aaca;border-radius:5px}
+html[data-theme="light"] header{background:linear-gradient(to bottom, rgba(255,255,255,.96), rgba(255,255,255,0))!important}
+@media(max-width:980px){header a[href="/contact"]{display:none!important}}
+header button[role="switch"],header .rd-language{display:inline-grid;place-items:center;width:36px;height:36px;border:0;border-radius:6px;background:transparent;color:var(--vv-text-primary);cursor:pointer}
+header button[role="switch"]>span{display:none}
+header button[role="switch"]::before{content:"☀";font:28px/1 system-ui}
+html[data-theme="light"] header button[role="switch"]::before{content:"☾"}
+header a[href="/contact"],main a[href="/contact"].bg-fg, .a-btn-primary{background:#ffc800!important;color:#0b1f44!important;border-color:#ffc800!important}
+.rd-logo{display:inline-flex;align-items:center;gap:9px;white-space:nowrap;font-size:24px;font-weight:700;letter-spacing:-1.1px;color:var(--vv-text-primary)}
+.rd-logo svg{width:35px;height:35px;flex-shrink:0}
+.rd-logo .dev{color:#00d2ff}.rd-logo .dot{color:#ffc800}
+header a[data-rd-logo]{min-width:180px}
+header a[data-rd-logo]>svg,footer a[data-rd-logo]>svg{display:none}
+.rd-preview{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:9999;background:#0b1f44ed;color:#f4f9ff;border:1px solid #00d2ff66;border-radius:30px;padding:8px 16px;font:11px/1.5 Poppins,sans-serif;text-align:center;box-shadow:0 4px 22px #0003;max-width:94vw;width:max-content;pointer-events:none}
+.rd-preview b{color:#ffc800;font-weight:600}
+@media(max-width:600px){.rd-logo{font-size:20px}.rd-logo svg{width:28px}.rd-preview{font-size:9px;padding:6px 10px}h1{overflow-wrap:normal}}
+h1{font-size:clamp(42px,6vw,80px)!important;line-height:1.12!important}
+h1 em,h1 i{color:#00d2ff}
+main{background-image:radial-gradient(ellipse 60% 550px at 80% 0%,#006bff25,transparent)}
+header .rd-logo{font-weight:700}
+@media(max-width:600px){
+header a[data-rd-logo]{min-width:0}
+header .rd-logo{font-size:18px;gap:6px}
+header .rd-logo svg{width:25px}
+header>div{gap:10px!important;padding-left:16px!important;padding-right:16px!important}
+}
+h1 .vv-accent{margin-left:.1em;color:#00d2ff}
+h1 .vv-accent-roman{color:#00d2ff}
+.rd-logo-official{display:block;width:180px;height:auto;aspect-ratio:4/1;object-fit:contain}
+footer .rd-logo-official{width:180px}
+html[data-theme=light] .rd-logo-official{content:url("/brand/logo-light.svg")}
+html[data-theme=light] header .rd-logo-official{content:var(--rd-builder-logo-light,url("/brand/logo-light.svg"))}
+html[data-theme=dark] header .rd-logo-official{content:var(--rd-builder-logo-dark,normal)}
+html[data-theme=dark] body{background:var(--rd-builder-dark,var(--vv-bg))!important}
+html[data-theme=light] body{background:var(--rd-builder-light,var(--vv-bg))!important}
+html[data-theme=dark]{--vv-bg:var(--rd-builder-dark,#0b1f44)}
+html[data-theme=light]{--vv-bg:var(--rd-builder-light,#f4f9ff)}
+body,button,input,textarea,select,h1,h2,h3{font-family:var(--rd-builder-font,Poppins,sans-serif)!important}
+header a[href="/contact"],header a[data-rd-builder-action],main a[href="/contact"].bg-fg,.a-btn-primary,.rd-builder-button{
+  background:var(--rd-builder-primary,#ffc800)!important;border-color:var(--rd-builder-primary,#ffc800)!important;
+  color:#0b1f44!important;border-radius:var(--rd-builder-radius,revert-layer)
+}
+h1 em,h1 i,h1 .vv-accent,h1 .vv-accent-roman{color:var(--rd-builder-accent,#00d2ff)}
+.rd-builder-section{max-width:1120px;margin:auto;padding:clamp(32px,7vw,86px) 24px;color:var(--vv-text-primary)}
+.rd-builder-section[data-spacing=compact]{padding-block:24px}
+.rd-builder-section[data-spacing=spacious]{padding-block:clamp(72px,12vw,150px)}
+.rd-builder-section h2{font-size:clamp(28px,5vw,58px);line-height:1.1;margin-bottom:14px}
+.rd-builder-section p{white-space:pre-wrap;margin-bottom:14px;color:var(--vv-text-muted)}
+.rd-builder-section img{max-width:100%;max-height:620px;object-fit:contain;margin:14px auto}
+.rd-builder-section details{padding:10px 0;border-bottom:1px solid var(--vv-border)}
+.rd-builder-button{display:inline-block;padding:9px 16px;border-radius:var(--rd-builder-radius,999px)}
+@media(max-width:980px){header a[data-rd-builder-action]{display:none!important}}
+@media(max-width:600px){header .rd-logo-official{width:140px;height:auto}}
+/* Compact wordmark and translucent navy navigation. */
+html:root{--vv-nav-bg:rgba(5,17,39,.82)}
+header a[data-rd-logo]{min-width:0}
+header .rd-logo-official{width:132px;height:auto}
+@media(min-width:981px){
+header[class*="pt-5"]{border-color:transparent!important}
+header>div[class*="920px"]{
+background:rgba(5,17,39,.82)!important;
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+box-shadow:0 8px 28px #0003;
+}
+}
+@media(max-width:600px){header .rd-logo-official{width:120px}}
