@@ -1,0 +1,1264 @@
+{
+  "version": 2,
+  "framework": null,
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "methods": [
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "dest": "/api/route"
+    },
+    {
+      "src": "/(_next/image|content/(?:page|site-builder|homepage|project-titles|post-cards|preview-image/\\d+|builder-section/\\d+))",
+      "dest": "/api/route?__route=/$1"
+    },
+    {
+      "src": "/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/route.rsc"
+    },
+    {
+      "src": "/contact/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/contact/route.rsc"
+    },
+    {
+      "src": "/contact/thank-you/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/contact/thank-you/route.rsc"
+    },
+    {
+      "src": "/about-us/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/about-us/route.rsc"
+    },
+    {
+      "src": "/privacy-policy/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/privacy-policy/route.rsc"
+    },
+    {
+      "src": "/blog/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/route.rsc"
+    },
+    {
+      "src": "/blog/smart-theme-switch-framer-component/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/smart-theme-switch-framer-component/route.rsc"
+    },
+    {
+      "src": "/blog/category/framer/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/category/framer/route.rsc"
+    },
+    {
+      "src": "/blog/category/wix-studio/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/category/wix-studio/route.rsc"
+    },
+    {
+      "src": "/blog/stylesync/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/stylesync/route.rsc"
+    },
+    {
+      "src": "/blog/dais-shopify-theme-documentation/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/dais-shopify-theme-documentation/route.rsc"
+    },
+    {
+      "src": "/blog/wix-studio-preloader-animation/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/wix-studio-preloader-animation/route.rsc"
+    },
+    {
+      "src": "/blog/smart-animated-counters-in-wix-studio/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/smart-animated-counters-in-wix-studio/route.rsc"
+    },
+    {
+      "src": "/blog/advanced-cms-slideshow-for-framer/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/advanced-cms-slideshow-for-framer/route.rsc"
+    },
+    {
+      "src": "/blog/smooth-scroll-in-a-wix-website/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/smooth-scroll-in-a-wix-website/route.rsc"
+    },
+    {
+      "src": "/blog/shoal-shopify-theme-documentation/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/shoal-shopify-theme-documentation/route.rsc"
+    },
+    {
+      "src": "/blog/editable-vector-text-effect/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/blog/editable-vector-text-effect/route.rsc"
+    },
+    {
+      "src": "/works/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/route.rsc"
+    },
+    {
+      "src": "/works/dar-zilal/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/dar-zilal/route.rsc"
+    },
+    {
+      "src": "/works/amble/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/amble/route.rsc"
+    },
+    {
+      "src": "/works/norholm-freight/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/norholm-freight/route.rsc"
+    },
+    {
+      "src": "/works/tubwell/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/tubwell/route.rsc"
+    },
+    {
+      "src": "/works/green-earth/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/green-earth/route.rsc"
+    },
+    {
+      "src": "/works/aune/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/aune/route.rsc"
+    },
+    {
+      "src": "/works/valden/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/valden/route.rsc"
+    },
+    {
+      "src": "/works/ellery-kowal/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/ellery-kowal/route.rsc"
+    },
+    {
+      "src": "/works/wrenmoor-heath/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/wrenmoor-heath/route.rsc"
+    },
+    {
+      "src": "/works/forma/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/forma/route.rsc"
+    },
+    {
+      "src": "/works/lasada-pippen/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/lasada-pippen/route.rsc"
+    },
+    {
+      "src": "/works/aesthica/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/aesthica/route.rsc"
+    },
+    {
+      "src": "/works/watches/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/watches/route.rsc"
+    },
+    {
+      "src": "/works/alvara-house/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/alvara-house/route.rsc"
+    },
+    {
+      "src": "/works/evercraft/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/evercraft/route.rsc"
+    },
+    {
+      "src": "/works/restra/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/restra/route.rsc"
+    },
+    {
+      "src": "/works/agency/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/agency/route.rsc"
+    },
+    {
+      "src": "/works/tigre-tigre/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/tigre-tigre/route.rsc"
+    },
+    {
+      "src": "/works/rva-flyers/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/rva-flyers/route.rsc"
+    },
+    {
+      "src": "/works/upwell/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/upwell/route.rsc"
+    },
+    {
+      "src": "/works/averleigh/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/averleigh/route.rsc"
+    },
+    {
+      "src": "/works/devansh-portfolio/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/devansh-portfolio/route.rsc"
+    },
+    {
+      "src": "/works/aveline-dental/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/aveline-dental/route.rsc"
+    },
+    {
+      "src": "/works/loudwell/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/loudwell/route.rsc"
+    },
+    {
+      "src": "/works/future-flow/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/future-flow/route.rsc"
+    },
+    {
+      "src": "/works/avara/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/avara/route.rsc"
+    },
+    {
+      "src": "/works/ironwood/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/ironwood/route.rsc"
+    },
+    {
+      "src": "/works/halden-roofing/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/halden-roofing/route.rsc"
+    },
+    {
+      "src": "/works/ines-calder/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/ines-calder/route.rsc"
+    },
+    {
+      "src": "/works/parley/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/parley/route.rsc"
+    },
+    {
+      "src": "/works/orvel/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/orvel/route.rsc"
+    },
+    {
+      "src": "/works/lumora/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/lumora/route.rsc"
+    },
+    {
+      "src": "/works/tarn/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/tarn/route.rsc"
+    },
+    {
+      "src": "/works/empire-rugby/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/empire-rugby/route.rsc"
+    },
+    {
+      "src": "/works/4dolfins/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/4dolfins/route.rsc"
+    },
+    {
+      "src": "/works/oriel/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/oriel/route.rsc"
+    },
+    {
+      "src": "/works/longitude-society/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/longitude-society/route.rsc"
+    },
+    {
+      "src": "/works/launchfolio/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/launchfolio/route.rsc"
+    },
+    {
+      "src": "/works/horizone/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/horizone/route.rsc"
+    },
+    {
+      "src": "/works/auro/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/auro/route.rsc"
+    },
+    {
+      "src": "/works/guardian-vets/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/guardian-vets/route.rsc"
+    },
+    {
+      "src": "/works/kingswell-law/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/kingswell-law/route.rsc"
+    },
+    {
+      "src": "/works/halcy/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/halcy/route.rsc"
+    },
+    {
+      "src": "/works/meridian-ecom/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/meridian-ecom/route.rsc"
+    },
+    {
+      "src": "/works/stillroom/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/stillroom/route.rsc"
+    },
+    {
+      "src": "/works/recapture-life/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/recapture-life/route.rsc"
+    },
+    {
+      "src": "/works/ardor/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/ardor/route.rsc"
+    },
+    {
+      "src": "/works/showin/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/showin/route.rsc"
+    },
+    {
+      "src": "/works/health-core/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/health-core/route.rsc"
+    },
+    {
+      "src": "/works/photofolio/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/works/photofolio/route.rsc"
+    },
+    {
+      "src": "/terms-and-conditions/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/terms-and-conditions/route.rsc"
+    },
+    {
+      "src": "/templates/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/templates/route.rsc"
+    },
+    {
+      "src": "/services/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/route.rsc"
+    },
+    {
+      "src": "/services/ecommerce-website-design/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/ecommerce-website-design/route.rsc"
+    },
+    {
+      "src": "/services/cms-and-dynamic-websites/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/cms-and-dynamic-websites/route.rsc"
+    },
+    {
+      "src": "/services/consistent-identity/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/consistent-identity/route.rsc"
+    },
+    {
+      "src": "/services/crafted-websites/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/crafted-websites/route.rsc"
+    },
+    {
+      "src": "/services/ux-centric-strategy/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/ux-centric-strategy/route.rsc"
+    },
+    {
+      "src": "/services/motion-and-interaction-design/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/motion-and-interaction-design/route.rsc"
+    },
+    {
+      "src": "/services/maintenance-and-ongoing-support/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/maintenance-and-ongoing-support/route.rsc"
+    },
+    {
+      "src": "/services/performance-optimization/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/performance-optimization/route.rsc"
+    },
+    {
+      "src": "/services/landing-pages-and-microsites/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/landing-pages-and-microsites/route.rsc"
+    },
+    {
+      "src": "/services/website-redesign/?",
+      "has": [
+        {
+          "type": "header",
+          "key": "rsc",
+          "value": "1"
+        }
+      ],
+      "dest": "/services/website-redesign/route.rsc"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/?",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/contact/?",
+      "dest": "/contact/index.html"
+    },
+    {
+      "src": "/contact/thank\\-you/?",
+      "dest": "/contact/thank-you/index.html"
+    },
+    {
+      "src": "/about\\-us/?",
+      "dest": "/about-us/index.html"
+    },
+    {
+      "src": "/privacy\\-policy/?",
+      "dest": "/privacy-policy/index.html"
+    },
+    {
+      "src": "/admin/?",
+      "dest": "/admin/index.html"
+    },
+    {
+      "src": "/admin/login/?",
+      "dest": "/admin/login/index.html"
+    },
+    {
+      "src": "/blog/?",
+      "dest": "/blog/index.html"
+    },
+    {
+      "src": "/blog/smart\\-theme\\-switch\\-framer\\-component/?",
+      "dest": "/blog/smart-theme-switch-framer-component/index.html"
+    },
+    {
+      "src": "/blog/category/framer/?",
+      "dest": "/blog/category/framer/index.html"
+    },
+    {
+      "src": "/blog/category/wix\\-studio/?",
+      "dest": "/blog/category/wix-studio/index.html"
+    },
+    {
+      "src": "/blog/stylesync/?",
+      "dest": "/blog/stylesync/index.html"
+    },
+    {
+      "src": "/blog/dais\\-shopify\\-theme\\-documentation/?",
+      "dest": "/blog/dais-shopify-theme-documentation/index.html"
+    },
+    {
+      "src": "/blog/wix\\-studio\\-preloader\\-animation/?",
+      "dest": "/blog/wix-studio-preloader-animation/index.html"
+    },
+    {
+      "src": "/blog/smart\\-animated\\-counters\\-in\\-wix\\-studio/?",
+      "dest": "/blog/smart-animated-counters-in-wix-studio/index.html"
+    },
+    {
+      "src": "/blog/advanced\\-cms\\-slideshow\\-for\\-framer/?",
+      "dest": "/blog/advanced-cms-slideshow-for-framer/index.html"
+    },
+    {
+      "src": "/blog/smooth\\-scroll\\-in\\-a\\-wix\\-website/?",
+      "dest": "/blog/smooth-scroll-in-a-wix-website/index.html"
+    },
+    {
+      "src": "/blog/shoal\\-shopify\\-theme\\-documentation/?",
+      "dest": "/blog/shoal-shopify-theme-documentation/index.html"
+    },
+    {
+      "src": "/blog/editable\\-vector\\-text\\-effect/?",
+      "dest": "/blog/editable-vector-text-effect/index.html"
+    },
+    {
+      "src": "/works/?",
+      "dest": "/works/index.html"
+    },
+    {
+      "src": "/works/dar\\-zilal/?",
+      "dest": "/works/dar-zilal/index.html"
+    },
+    {
+      "src": "/works/amble/?",
+      "dest": "/works/amble/index.html"
+    },
+    {
+      "src": "/works/norholm\\-freight/?",
+      "dest": "/works/norholm-freight/index.html"
+    },
+    {
+      "src": "/works/tubwell/?",
+      "dest": "/works/tubwell/index.html"
+    },
+    {
+      "src": "/works/green\\-earth/?",
+      "dest": "/works/green-earth/index.html"
+    },
+    {
+      "src": "/works/aune/?",
+      "dest": "/works/aune/index.html"
+    },
+    {
+      "src": "/works/valden/?",
+      "dest": "/works/valden/index.html"
+    },
+    {
+      "src": "/works/ellery\\-kowal/?",
+      "dest": "/works/ellery-kowal/index.html"
+    },
+    {
+      "src": "/works/wrenmoor\\-heath/?",
+      "dest": "/works/wrenmoor-heath/index.html"
+    },
+    {
+      "src": "/works/forma/?",
+      "dest": "/works/forma/index.html"
+    },
+    {
+      "src": "/works/lasada\\-pippen/?",
+      "dest": "/works/lasada-pippen/index.html"
+    },
+    {
+      "src": "/works/aesthica/?",
+      "dest": "/works/aesthica/index.html"
+    },
+    {
+      "src": "/works/watches/?",
+      "dest": "/works/watches/index.html"
+    },
+    {
+      "src": "/works/alvara\\-house/?",
+      "dest": "/works/alvara-house/index.html"
+    },
+    {
+      "src": "/works/evercraft/?",
+      "dest": "/works/evercraft/index.html"
+    },
+    {
+      "src": "/works/restra/?",
+      "dest": "/works/restra/index.html"
+    },
+    {
+      "src": "/works/agency/?",
+      "dest": "/works/agency/index.html"
+    },
+    {
+      "src": "/works/tigre\\-tigre/?",
+      "dest": "/works/tigre-tigre/index.html"
+    },
+    {
+      "src": "/works/rva\\-flyers/?",
+      "dest": "/works/rva-flyers/index.html"
+    },
+    {
+      "src": "/works/upwell/?",
+      "dest": "/works/upwell/index.html"
+    },
+    {
+      "src": "/works/averleigh/?",
+      "dest": "/works/averleigh/index.html"
+    },
+    {
+      "src": "/works/devansh\\-portfolio/?",
+      "dest": "/works/devansh-portfolio/index.html"
+    },
+    {
+      "src": "/works/aveline\\-dental/?",
+      "dest": "/works/aveline-dental/index.html"
+    },
+    {
+      "src": "/works/loudwell/?",
+      "dest": "/works/loudwell/index.html"
+    },
+    {
+      "src": "/works/future\\-flow/?",
+      "dest": "/works/future-flow/index.html"
+    },
+    {
+      "src": "/works/avara/?",
+      "dest": "/works/avara/index.html"
+    },
+    {
+      "src": "/works/ironwood/?",
+      "dest": "/works/ironwood/index.html"
+    },
+    {
+      "src": "/works/halden\\-roofing/?",
+      "dest": "/works/halden-roofing/index.html"
+    },
+    {
+      "src": "/works/ines\\-calder/?",
+      "dest": "/works/ines-calder/index.html"
+    },
+    {
+      "src": "/works/parley/?",
+      "dest": "/works/parley/index.html"
+    },
+    {
+      "src": "/works/orvel/?",
+      "dest": "/works/orvel/index.html"
+    },
+    {
+      "src": "/works/lumora/?",
+      "dest": "/works/lumora/index.html"
+    },
+    {
+      "src": "/works/tarn/?",
+      "dest": "/works/tarn/index.html"
+    },
+    {
+      "src": "/works/empire\\-rugby/?",
+      "dest": "/works/empire-rugby/index.html"
+    },
+    {
+      "src": "/works/4dolfins/?",
+      "dest": "/works/4dolfins/index.html"
+    },
+    {
+      "src": "/works/oriel/?",
+      "dest": "/works/oriel/index.html"
+    },
+    {
+      "src": "/works/longitude\\-society/?",
+      "dest": "/works/longitude-society/index.html"
+    },
+    {
+      "src": "/works/launchfolio/?",
+      "dest": "/works/launchfolio/index.html"
+    },
+    {
+      "src": "/works/horizone/?",
+      "dest": "/works/horizone/index.html"
+    },
+    {
+      "src": "/works/auro/?",
+      "dest": "/works/auro/index.html"
+    },
+    {
+      "src": "/works/guardian\\-vets/?",
+      "dest": "/works/guardian-vets/index.html"
+    },
+    {
+      "src": "/works/kingswell\\-law/?",
+      "dest": "/works/kingswell-law/index.html"
+    },
+    {
+      "src": "/works/halcy/?",
+      "dest": "/works/halcy/index.html"
+    },
+    {
+      "src": "/works/meridian\\-ecom/?",
+      "dest": "/works/meridian-ecom/index.html"
+    },
+    {
+      "src": "/works/stillroom/?",
+      "dest": "/works/stillroom/index.html"
+    },
+    {
+      "src": "/works/recapture\\-life/?",
+      "dest": "/works/recapture-life/index.html"
+    },
+    {
+      "src": "/works/ardor/?",
+      "dest": "/works/ardor/index.html"
+    },
+    {
+      "src": "/works/showin/?",
+      "dest": "/works/showin/index.html"
+    },
+    {
+      "src": "/works/health\\-core/?",
+      "dest": "/works/health-core/index.html"
+    },
+    {
+      "src": "/works/photofolio/?",
+      "dest": "/works/photofolio/index.html"
+    },
+    {
+      "src": "/terms\\-and\\-conditions/?",
+      "dest": "/terms-and-conditions/index.html"
+    },
+    {
+      "src": "/templates/?",
+      "dest": "/templates/index.html"
+    },
+    {
+      "src": "/services/?",
+      "dest": "/services/index.html"
+    },
+    {
+      "src": "/services/ecommerce\\-website\\-design/?",
+      "dest": "/services/ecommerce-website-design/index.html"
+    },
+    {
+      "src": "/services/cms\\-and\\-dynamic\\-websites/?",
+      "dest": "/services/cms-and-dynamic-websites/index.html"
+    },
+    {
+      "src": "/services/consistent\\-identity/?",
+      "dest": "/services/consistent-identity/index.html"
+    },
+    {
+      "src": "/services/crafted\\-websites/?",
+      "dest": "/services/crafted-websites/index.html"
+    },
+    {
+      "src": "/services/ux\\-centric\\-strategy/?",
+      "dest": "/services/ux-centric-strategy/index.html"
+    },
+    {
+      "src": "/services/motion\\-and\\-interaction\\-design/?",
+      "dest": "/services/motion-and-interaction-design/index.html"
+    },
+    {
+      "src": "/services/maintenance\\-and\\-ongoing\\-support/?",
+      "dest": "/services/maintenance-and-ongoing-support/index.html"
+    },
+    {
+      "src": "/services/performance\\-optimization/?",
+      "dest": "/services/performance-optimization/index.html"
+    },
+    {
+      "src": "/services/landing\\-pages\\-and\\-microsites/?",
+      "dest": "/services/landing-pages-and-microsites/index.html"
+    },
+    {
+      "src": "/services/website\\-redesign/?",
+      "dest": "/services/website-redesign/index.html"
+    },
+    {
+      "src": "/vendor/demo/?",
+      "dest": "/vendor/demo/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
+    }
+  ]
+}
